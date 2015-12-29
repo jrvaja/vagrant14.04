@@ -9,14 +9,14 @@
 Select a folder for your develpment code.
 
 <h2>Step 3: Add the Alias</h2>
-Add the below alias to your <i>~/.bashrc</i> file or <i>~/.bash_profile</i>
+Add the below alias to your ```~/.bashrc``` file or ```~/.bash_profile```
 <br>
 ```
 alias lamp="curl -L -o 'install.sh' https://goo.gl/xQR4ud && curl -L -o 'Vagrantfile' https://goo.gl/TMPyh2 && vagrant up"
 ```
 
-Provide source to your ~/.bashrc file or ~/.bash_profile
-Ex : source ~/.bashrc
+Provide source to your ```~/.bashrc``` file or ```~/.bash_profile```
+Ex : ```source ~/.bashrc```
 
 <h2>Step 4: Install</h2>
 cd to your desired directory in the Terminal, and run lamp to install your LAMP stack.
@@ -24,15 +24,14 @@ cd to your desired directory in the Terminal, and run lamp to install your LAMP 
 This will take a few minutes as your intenet connection.
 
 <h2>Step 5: Done. Go Poke Around.</h2>
-RUN <b>vagrant up </b> to start your virtual dev machine.
+RUN ```vagrant up``` to start your virtual dev machine.
 
 You can connet to ssh by the below command
-<b>vagrant ssh</b>
+```vagrant ssh```
 
 Now, All is set.
 
-
-If you cd to /vagrant, this folder will be shared with your project root on your local/host machine. That means, when you create a file on your Mac, it will instantly be shared (both ways) with the /vagrant directory on your VM. However, we're also syncing with the /var/wwwdirectory on your VM, which is the Apache root. That means, if you visit http://192.168.33.21, you should see "It Worked!" You can change the IP address in your Vagrantfile, if you need to.
+If you cd to /vagrant, this folder will be shared with your project root on your local/host machine. That means, when you create a file on your Mac, it will instantly be shared (both ways) with the /vagrant directory on your VM. However, we're also syncing with the /var/wwwdirectory on your VM, which is the Apache root. That means, if you visit ```http://192.168.33.21```, you should see "It Worked!" You can change the IP address in your Vagrantfile, if you need to.
 
 Have fun! This also installs and enables X-Debug for you. You can stop using MAMP now.
 
@@ -50,7 +49,7 @@ At the bottom of this file, add:
 Now, browse to ```http://app.dev.```
 
 <h2>Extra-2</h2>
-By default, Apache will set your document root to /var/www/html. If you don't want this...
+By default, Apache will set your document root to ```/var/www/html```. If you don't want this...
 
 ```
 $ vagrant ssh
