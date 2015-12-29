@@ -99,4 +99,19 @@ Refer : <a href='https://gist.github.com/JeffreyWay/af0ee7311abfde3e3b73'> Gitgu
 
 Enjoy development with PHP.
 
+<h2>Power Command</h2>
+Make an alias that points this your folder.
+edit your :  ```source ~/.bashrc```
+
+```
+alias dev-up="cd ~/Code; vagrant up"
+```
+Get ssh rights to machine
+
+```
+alias dev-ssh="cd ~/Code; vagrant ssh"
+```
+
+you can add your custom aliases to make your work much easy.
+
 Thanks to <a href='https://github.com/jeffreyway/'>Jeffrey Way</a>
