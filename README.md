@@ -3,8 +3,8 @@
 <a href='https://laracasts.com/lessons/get-off-mamp-now'>Get Off MAMP </a>
 
 <h2>Step 2 : Install Virtual box and Vagrant </h2>
-<a href='https://www.virtualbox.org/'>Virtual Box</a>
-Install <a href='https://www.vagrantup.com'>Vagrant</a>
+1.<a href='https://www.virtualbox.org/'>Virtual Box</a> <br>
+2.<a href='https://www.vagrantup.com'>Vagrant</a>
 
 Select a folder for your develpment code.
 
