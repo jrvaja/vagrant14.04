@@ -94,8 +94,7 @@ sudo service apache2 reload
 ```
 
 <h2>For More Extra credits</h2>
-Refer : <a href='https://gist.github.com/JeffreyWay/af0ee7311abfde3e3b73'> Gitgub Jeffrey Way</a>
-``` The Killer feature of PHP ```
+Refer : <a href='https://gist.github.com/JeffreyWay/af0ee7311abfde3e3b73'> Github Jeffrey Way</a>
 
 Enjoy development with PHP.
 
