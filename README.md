@@ -11,8 +11,9 @@ Select a folder for your develpment code.
 <h2>Step 3: Add the Alias</h2>
 Add the below alias to your <i>~/.bashrc</i> file or <i>~/.bash_profile</i>
 <br>
-<i>
-  alias lamp="curl -L -o 'install.sh' https://goo.gl/xQR4ud && curl -L -o 'Vagrantfile' https://goo.gl/TMPyh2 && vagrant up" </i>
+```
+alias lamp="curl -L -o 'install.sh' https://goo.gl/xQR4ud && curl -L -o 'Vagrantfile' https://goo.gl/TMPyh2 && vagrant up"
+```
 
 Provide source to your ~/.bashrc file or ~/.bash_profile
 Ex : source ~/.bashrc
