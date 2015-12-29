@@ -60,7 +60,7 @@ $ sudo service apache2 reload
 ```
 Reload the browser. Now, your local project root will be treated as Apache's document root. Typically, though, you'll want to set Apache's document root to something like the public directory - so ``` DocumentRoot /var/www/public``` .
 
-<h3>Extra Credit 4: Multiple Websites With the Same VM</h3>
+<h3>Extra-4: Multiple Websites With the Same VM</h3>
 Maybe you want to run all of your sites and demos within this VM. Here's how.
 
 For this example, maybe we're building a new app, called "Larabook." Begin by creating a new directory, "larabook" within the same directory that has the Vagrantfile that you pulled in during Step 3. Add a dummy index.php file here, just to prove that it's working.
