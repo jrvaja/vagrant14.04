@@ -1,4 +1,4 @@
-# vagrant14.04
+# Virtual Box with Ubuntu 14.04 LTS
 <h2>Step 1 : Watch Video at Laracast</h2>
 <a href='https://laracasts.com/lessons/get-off-mamp-now'>Get Off MAMP </a>
 
